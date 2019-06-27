@@ -1,0 +1,33 @@
+{
+  "name": "tron-mongo-sync-check",
+  "version": "0.0.0-alpha",
+  "description": "A single run task to check if and how far behind a Tron Events MongoDB is from a Full Node latest block",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gettyio/tron-mongo-sync-check.git"
+  },
+  "keywords": [
+    "java-tron",
+    "tron",
+    "crypto",
+    "mongodb"
+  ],
+  "author": "Vinicius Niche Correa (viniciusnichecorrea@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gettyio/tron-mongo-sync-check/issues"
+  },
+  "homepage": "https://github.com/gettyio/tron-mongo-sync-check#readme",
+  "dependencies": {
+    "@types/node": "^12.0.10",
+    "axios": "^0.19.0",
+    "mongoose": "^5.6.1",
+    "typescript": "^3.5.2",
+    "winston": "^3.2.1"
+  }
+}
