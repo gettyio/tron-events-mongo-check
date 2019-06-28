@@ -79,11 +79,8 @@ workflows:
   build-deploy:
     jobs:
     - build
-    - test:
-        context: aws-creds
-        requires:
-        - build
     - docker-build-push:
+        context: docker-hub-credentials
         requires:
         - test
         filters:
