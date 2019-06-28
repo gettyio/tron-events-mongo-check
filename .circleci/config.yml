@@ -82,7 +82,7 @@ workflows:
     - docker-build-push:
         context: docker-hub-credentials
         requires:
-        - test
+        - build
         filters:
           branches:
             only:
