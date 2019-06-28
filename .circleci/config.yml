@@ -24,8 +24,7 @@ jobs:
         key: v1-dependencies-{{ .Revision }}-{{ .Branch }}
     
     # run build
-    - run: |
-        yarn build
+    - run: yarn build
 
     # tries to save distribution to cache
     - save_cache:
