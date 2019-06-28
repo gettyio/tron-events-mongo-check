@@ -1,6 +1,6 @@
 {
   "name": "tron-mongo-sync-check",
-  "version": "0.0.0-alpha",
+  "version": "0.0.1",
   "description": "A single run task to check if and how far behind a Tron Events MongoDB is from a Full Node latest block",
   "main": "index.js",
   "scripts": {
